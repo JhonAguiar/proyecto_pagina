@@ -1,0 +1,42 @@
+.caja{
+    background-color: yellow;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+
+    display: inline-block;
+}
+
+.caja2{
+    background-color: rosybrown;
+    height: 500px;
+    width: 500px;
+    border: 1px solid black;
+    display: inline-block;
+    float: left;
+}
+
+
+.caja3{
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+}
+
+#uno{
+    text-align: left;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+#dos{
+    text-align: center;
+    text-transform: lowercase;
+    text-decoration: overline;
+}
+
+#tres{
+    text-align: right;
+    text-transform: uppercase;
+    text-decoration:line-through;
+}
