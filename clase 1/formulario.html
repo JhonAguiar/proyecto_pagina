@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <a href="hola.html">hola</a>
+        <form action="hola.html" method="get">
+          
+           <label for="Nombre">Nombre</label>
+           <input type="text" name="Nombre" id="Nombre" maxlength="10" minlength="5" required placeholder="Nombre"><br>
+
+           <label for="Apellido">Apellido</label>
+           <input type="text" name="Apellido" id="Apellido" required><br>
+
+           <label for="Direccion">Direccion</label>
+           <input type="text" name="Direccion" id="Direccion" required><br>
+
+           <label for="Telefono">Telefono</label>
+           <input type="number" name="Telefono" id="Telefono" max="99" min="0" required><br>
+
+           <label for="Correo">Correo</label>
+           <input type="email" name="Correo" id="Correo" required><br>
+          
+            <label for="Color">Color</label>
+            <input type="color" name="Color" id="Color"><br>
+
+            <input type="file" name="archivo">
+
+            <label for="date">Date</label>
+            <input type="date" name="date" id="Colodater" min="2022-11-06" max="2022-11-11"><br>
+
+            <label for="buscar">buscar</label>
+            <input type="search" name="buscar" id="buscar"><br>
+
+            <label for="Rango">Rango</label>
+            <input type="range" name="Rango" id="Rango" ><br>
+
+            <label for="Observaciones">Observaciones</label>
+            <textarea name="Observaciones" id="Observaciones" cols="100" rows="20" ></textarea><br>
+
+            <label for="Genero">Genero</label>
+            <select name="genero" id="genero">
+                <option value="MALE">MALE</option>
+                <option value="FEMALE">FEMALE</option>
+            </select>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
