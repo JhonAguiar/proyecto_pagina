@@ -1,0 +1,40 @@
+.static{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    top: 400px;
+
+}
+
+.relative{
+    height: 100px;
+    width: 100px;
+    background-color:cadetblue;
+    top: 100px;
+    right: -50px;
+    position: relative;
+    
+}
+
+.absolute{
+    height: 100px;
+    width: 100px;
+    background-color:coral;
+    position: absolute;
+
+    
+}
+
+.fixed{
+    height: 100px;
+    width: 100px;
+    background-color:cornflowerblue;
+    position: fixed;
+ 
+}
+
+.absolute_contenedor{
+    width: 400px;
+    height: 400px;
+    background-color: fuchsia;
+ }

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="position.css">
+    </head>
+    <body>
+        <details>
+            <summary>Static</summary>
+            El elemento posicionado de acuerdo al flujo normal del elemento, es decir las propiedades no tienen ningun efecto y este es el valor por defecto.
+        </details>
+        <details>
+            <summary>Relative</summary>
+            El elemento es posicionado de acuerdo al flujo normal pero a una distancia relativa asi mismo basado en los valores arriba, abajo, derecha e izquierda
+        </details>
+        <details>
+            <summary>Absolute</summary>
+            El elemento es removido del flujo normal, su poscion es determinada por los valores, right, botton, top y left y este elemento se posiciona a su ancestro mas cercano.
+        </details>
+        <details>
+            <summary>Fixed</summary>
+            El elemento es removido del flujo normal y su posicion es deteminada por los valores, right, botton, top y left y este elemento esta posicionado con respecto a el contenedor de bloque establecido por el viewport
+        </details>
+
+        <div class="static">
+
+
+        </div>
+        <div class="relative">
+            relative
+
+        </div>
+
+        <div class="absolute_contenedor">
+            <div class="absolute"></div>
+            <div class="fixed"></div>
+        </div>
+
+       
+        
+    </body>
+</html>
