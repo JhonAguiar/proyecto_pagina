@@ -52,3 +52,88 @@ header :first-child{
     background-color: #AC000D;
 }
 
+nav{
+    text-align: center;
+}
+#nav_nintendo{
+    display: inline-block;
+    float: right;
+ 
+}
+
+.repeating-linear-gradient{
+    background-image: repeating-linear-gradient(-45deg,#302f2f,#302f2f 6px,#2a2929 0,#2a2929 12px);
+    
+}
+
+#movimiento{
+    height: 30px;
+    display: inline-block;    
+
+}
+#nav_nintendo_menu{
+    height: 70px;    
+}
+
+.nav_div{
+    display: inline-block;
+    text-align: center;
+    
+}
+.nav-div__p{
+    color: #FFF;
+    display: inline-block;  
+    text-align: center;
+    margin-top: 10px;
+    font-family: Arial;
+    font-size: 12px;  
+    
+}
+
+.checkbox_movimiento{
+   
+    width: 1.1em;
+    height: 1.1em;
+    background-color: transparent;
+    border-radius: 25%;
+    vertical-align: middle;
+    border: 1px solid #FFF;
+    appearance: none;
+    
+  
+    cursor: pointer;
+  
+}
+
+.checkbox_movimiento:checked{
+    background-color: #e60012;
+    
+
+
+}
+
+.checkbox_movimiento:hover{
+    background-color: #e60012;
+    
+}
+                                              
+li{
+    display: inline;
+    color: #FFF;
+    font-family: Arial;
+    font-weight: bold;    
+    padding: 14px ;
+    border-radius:8px;   
+    font-size: 15px;                                                                                                                
+
+
+}
+
+ul{
+    padding-top: 30px;
+}
+
+li:hover{
+    background-color: #e60012;
+    border: 2px solid #FFF;
+}
