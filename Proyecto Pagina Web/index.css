@@ -7,6 +7,7 @@ header{
     background-color:  #e60012;
     width: 100%;
     height: 60px;
+    border-bottom: 1px solid #AC000D;
 }
 
 #figura_nintendo{
@@ -18,6 +19,7 @@ header :first-child{
     padding-left: 8px;
     padding-top: 6px;
     display: inline-block;
+    
 }
 
 .fa-user{
@@ -98,7 +100,7 @@ nav{
     border-radius: 25%;
     vertical-align: middle;
     border: 1px solid #FFF;
-    appearance: none;
+    appearance: none; 
     
   
     cursor: pointer;
