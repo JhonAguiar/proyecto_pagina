@@ -1,0 +1,16 @@
+section{
+    background-color: #FF7DAD;
+    margin: auto;
+    width: 500px;
+     height: 900px;
+
+}
+
+p{
+    text-align: center;
+    color: #FFF;
+    padding-top: 40px;
+    font-weight: bold;
+    font-size: 25px;
+   
+}
