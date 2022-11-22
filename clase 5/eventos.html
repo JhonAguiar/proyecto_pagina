@@ -14,8 +14,20 @@
         TEXTO
     </div>
 
-    <input type="number" name="" id="numero">
-    <button onclick="cuadrado()">Calcular</button>
-    
+    <input type="number" name="" id="numero" onblur="blure()" onfocus="focuse()">
+    <button onclick="cuadrado()" ondblclick="triangulo()" onmouseover="calculameesta()" onmouseleave="calculameestas2()">Calcular</button>
+    <br><br>
+    <select name="pais" id="pais" onchange="cambio()">
+        <option value="1">PERU</option>
+        <option value="2">BOLIVIA</option>
+        <option value="3">COLOMBIA</option>
+        <option value="4">PANAMA</option>
+        <option value="5">VENEZUELA</option>
+        <option value="6">ECUADOR</option>
+        <option value="7">ARGENTINA</option>
+        <option value="8">BRASIL</option>
+        <option value="9">URUGUAY</option>
+        <option value="10">CHILE</option>
+    </select>
 </body>
 </html>
