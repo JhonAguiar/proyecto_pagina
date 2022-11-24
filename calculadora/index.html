@@ -1,100 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
-    <title>Document</title>
-</head>
-<body>
-    <div id="calculadora">
-        <h1 >CASIO</h1>
-        <p>
-           ELECTRONIC CALCULATOR <br/>
-           HL-815L 
-        </p>
-  
-        <input type="number" name="" id="pantalla"> 
-        <table>
-            <tbody>
-                <tr>
-                    <td>OFF</td>
-                    <td>MRC</td>
-                    <td>M-</td>
-                    <td>M+</td>
-                    <td>÷</tr>
-                </tr>
-                <tr>
-                    <td>%</td>
-                    <td>7</td>
-                    <td>8</td>
-                    <td>9</td>
-                    <td>X</td>
-                </tr>
-                <tr>
-                    <td>√</td>
-                    <td>4</td>
-                    <td>5</td>
-                    <td>6</td>
-                    <td>-</td>
-                </tr>
-                <tr>
-                    <td>C</td>
-                    <td>1</td>
-                    <td>2</td>
-                    <td>3</td>
-                    <td rowspan="2">+</td>
-                </tr>
-                <tr>
-                    <td>AC</td>
-                    <td>0</td>
-                    <td>.</td>
-                    <td>=</td>
-                
-                </tr>
-            </tbody>
-        </table>   
-        <!-- <div id="botones">
-            <section>
-                <button>OFF</button>
-                <button>MRC</button>
-                <button>M-</button>
-                <button>M+</button>
-                <button>÷</button>
-            </section>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+        <title>Document</title>
+    </head>
+    <body>
+        <div id="calculadora">
+            <h1 >CASIO</h1>
+            <p>
+            ELECTRONIC CALCULATOR <br/>
+            HL-815L 
+            </p>
+    
+            <input type="number" name="" id="pantalla" value="0"> 
+            <table>
+                <tbody>
+                    <tr>
+                        <td><button>OFF</button></td>                   
+                        <td><button>MRC</button></td>
+                        <td><button>MRCM-</button></td>
+                        <td><button>M+</button></td>
+                        <td><button>÷</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>%</button></td>
+                        <td><button type="button" class="botones" onclick="capturar7()">7</button></td>
+                        <td><button type="button" class="botones" onclick="capturar8()">8</button></td>
+                        <td><button type="button" class="botones" onclick="capturar9()">9</button></td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>√</td>
+                        <td><button type="button" class="botones" onclick="capturar4()">4</button></td>
+                        <td><button type="button" class="botones" onclick="capturar5()">5</button></td>
+                        <td><button type="button" class="botones" onclick="capturar6()">6</button></td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td><button type="button" class="botones" onclick="capturar1()">1</button></td>
+                        <td><button type="button" class="botones" onclick="capturar2()">2</button></td>
+                        <td><button type="button" class="botones" onclick="capturar3()">3</button></td>
+                        <td rowspan="2">+</td>
+                    </tr>
+                    <tr>
+                        <td>AC</td>
+                        <td>0</td>
+                        <td>.</td>
+                        <td>=</td>
+                    
+                    </tr>
+                </tbody>
+            </table>   
+            <!-- <div id="botones">
+                <section>
+                    <button>OFF</button>
+                    <button>MRC</button>
+                    <button>M-</button>
+                    <button>M+</button>
+                    <button>÷</button>
+                </section>
 
-            <section>
-                <button>%</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>X</button>
-            </section>
-            <section>
-                <button>√</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>-</button>
-            </section>
-            <section>
-                <button>AC</button>
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>+</button>
-            </section>
-            <section>
-                <button>C</button>
-                <button>0</button>
-                <button>.</button>
-                <button>=</button>
+                <section>
+                    <button>%</button>
+                    <button>7</button>
+                    <button>8</button>
+                    <button>9</button>
+                    <button>X</button>
+                </section>
+                <section>
+                    <button>√</button>
+                    <button>4</button>
+                    <button>5</button>
+                    <button>6</button>
+                    <button>-</button>
+                </section>
+                <section>
+                    <button>AC</button>
+                    <button>1</button>
+                    <button>2</button>
+                    <button>3</button>
+                    <button>+</button>
+                </section>
+                <section>
+                    <button>C</button>
+                    <button>0</button>
+                    <button>.</button>
+                    <button>=</button>
 
-            </section>
-        </div> -->
-    </div>
+                </section>
+            </div> -->
+        </div>
 
-</body>
+    </body>
 </html>
