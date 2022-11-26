@@ -14,9 +14,13 @@ function capturar2(){
     document.getElementById('pantalla').value = document.getElementById('pantalla').value + 2 
 }
 
-
-
-
+function capturar3() {
+    let a = document.getElementById('pantalla').value
+    if(a == 0){
+        document.getElementById('pantalla').value = ''
+    }
+    document.getElementById('pantalla').value = document.getElementById('pantalla').value + 3
+}
 
 
 function capturar4(){
@@ -68,10 +72,15 @@ function capturar9(){
 }
 
 
-function capturar3(){
-    let a = document.getElementById('pantalla').value = ''
-    if(a == 0){
-        document.getElementById('pantalla').value = ''
+function capturar0(){
+    let a = document.getElementById('pantalla').value
+    if (a == 0){
+        document.getElementById('pantalla').value = 0;
+    }else{
+        document.getElementById('pantalla').value += 0;
     }
-    document.getElementById('pantalla').value = document.getElementById('pantalla').value + 3
+}
+
+function Limpiar(){
+    document.getElementById('pantalla').value = 0;
 }
