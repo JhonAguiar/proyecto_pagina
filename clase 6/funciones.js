@@ -27,6 +27,4 @@ function caracter(){
     
     return palabra.length;
 
-
-
 }

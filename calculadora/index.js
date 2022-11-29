@@ -1,3 +1,8 @@
+var numero1;
+var operacion;
+var numero2;
+
+
 function capturar1(){
     let a = document.getElementById('pantalla').value
     if(a == 0){
@@ -71,7 +76,6 @@ function capturar9(){
     document.getElementById('pantalla').value = document.getElementById('pantalla').value + 9 
 }
 
-
 function capturar0(){
     let a = document.getElementById('pantalla').value
     if (a == 0){
@@ -83,4 +87,41 @@ function capturar0(){
 
 function Limpiar(){
     document.getElementById('pantalla').value = 0;
+}
+
+function sumar(){
+   numero1 = parseInt(document.getElementById('pantalla').value)
+   operacion = '+'
+   document.getElementById('pantalla').value = 0;
+}
+
+function restar(){
+    numero1 = parseInt(document.getElementById('pantalla').value)
+    operacion = '-'
+    document.getElementById('pantalla').value = 0;
+}
+
+function dividir(){
+    numero1 = parseInt(document.getElementById('pantalla').value)
+    operacion = '/'
+    document.getElementById('pantalla').value = 0;
+}
+function multiplicar(){
+    numero1 = parseInt(document.getElementById('pantalla').value)
+    operacion = '*'
+    document.getElementById('pantalla').value = 0;
+}
+
+function igual(){
+    numero2 = parseInt(document.getElementById('pantalla').value)
+    if(operacion == '+'){
+        document.getElementById('pantalla').value = numero2 + numero1;
+    }else if(operacion == '-'){
+        document.getElementById('pantalla').value = numero1 - numero2;   
+    }else if(operacion == '/'){
+        document.getElementById('pantalla').value = numero1 / numero2;
+    }else if(operacion == '*'){
+        document.getElementById('pantalla').value = numero1 * numero2;
+
+    }
 }
