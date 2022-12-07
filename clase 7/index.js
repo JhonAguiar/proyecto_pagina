@@ -57,8 +57,7 @@
 // africa.sexo = 'gay'
 
 class Humano{
-    constructor() {
-
+    constructor() {      
     }
     caminar(){
         return 'Estoy caminando'
@@ -69,17 +68,14 @@ class Mujer extends Humano{
   constructor(){
     super();
   }
-
-
 }
 
 
 class Hombre extends Humano{
-    constructor(){
-        super();
-      alert('hola')
-    }
-  
+  constructor(){
+      super();
+    alert('hola')
+  }  
 }
 
 let maritza = new Mujer();  

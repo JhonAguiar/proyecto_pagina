@@ -126,7 +126,7 @@ li{
     font-weight: bold;    
     padding: 14px ;
     border-radius:8px;   
-    font-size: 15px;                                                                                                                
+    font-size: 15px;   
 
 
 }
@@ -138,4 +138,10 @@ ul{
 li:hover{
     background-color: #e60012;
     border: 2px solid #FFF;
+   
+}
+
+li::before{
+    content: "«";
+  color: blue;
 }

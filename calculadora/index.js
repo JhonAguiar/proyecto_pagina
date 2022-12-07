@@ -112,6 +112,20 @@ function multiplicar(){
     document.getElementById('pantalla').value = 0;
 }
 
+function capturar_modulo(){
+    numero1 = parseInt(document.getElementById('pantalla').value)
+    operacion = '%'
+    document.getElementById('pantalla').value = 0;
+}
+
+function raiz(){
+    let a = parseInt(document.getElementById('pantalla').value)    
+    document.getElementById('pantalla').value = Math.sqrt(a);
+}
+
+
+
+
 function igual(){
     numero2 = parseInt(document.getElementById('pantalla').value)
     if(operacion == '+'){
@@ -122,6 +136,7 @@ function igual(){
         document.getElementById('pantalla').value = numero1 / numero2;
     }else if(operacion == '*'){
         document.getElementById('pantalla').value = numero1 * numero2;
-
+    }else if(operacion == '%'){
+        document.getElementById('pantalla').value = numero1 % numero2;
     }
 }
